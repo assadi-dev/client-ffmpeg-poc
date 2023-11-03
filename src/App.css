@@ -1,0 +1,35 @@
+.place-content{
+  display: grid;
+  align-items: center;
+  height: 100vh;
+}
+
+.upload-zone
+{
+  margin: 1rem auto;
+  min-height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border: dashed 2px rgba(44, 44, 44,0.25);
+}
+
+
+.list-zone{
+  padding: 1rem 0.6rem;
+  max-height: 280px;
+  overflow-y: auto;
+  overflow-x: hidden;
+
+
+}
+
+@media screen and (min-width:992px) {
+
+
+ }
